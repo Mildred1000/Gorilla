@@ -1,0 +1,322 @@
+body{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  margin: 0;
+    display: flex; 
+    flex-direction: column; 
+    height: 800px;
+    background-color: black;
+}
+
+html, body {
+    background-color: black !important; 
+}
+
+.CONT1{
+display: flex;
+	flex-wrap: wrap;
+	align-items: stretch;
+	justify-content: stretch;
+	flex-direction: row;
+	color: black;
+}
+
+.BARRA{
+	background-color: #b4ea0a;
+	display: flex;
+	justify-content: center;
+	flex: 100%;
+	align-items: center;
+}
+
+header {
+    background-color: #b4ea0a;
+    padding: 20px;
+    flex: 100%;
+    color: black;
+}
+
+nav ul {
+    list-style: none;
+    margin: 1px;
+    padding: 1px;
+    text-align: center; 
+}
+
+
+
+
+.Item1{
+width: 100px;
+height: 50px;
+margin: 10px;
+}
+
+.Item2{
+width: 100px;
+height: 20px;
+margin: 10px;
+}
+
+.Item3{
+width: 100px;
+height: 20px;
+margin: 10px;
+}
+
+.Item4{
+width: 100px;
+height: 20px;
+margin: 10px;
+}
+
+.CONT2{
+	display: flex;
+	flex-wrap: wrap;
+align-items: center;
+margin: 10px;
+flex: 20%;
+}
+
+.TIT{
+	   display: flex;
+	flex-wrap: wrap;
+	flex: 35%;
+	justify-content: start;
+	align-items: flex-end;
+	margin-left: 10px;
+	height: 40px;
+	font-size: 25px;
+}
+
+.TEXT{ 
+   display: flex;
+	flex-wrap: wrap;
+	flex: 35%;
+	justify-content: start;
+	align-items: center;
+	margin-left: 10px;
+	margin-right: 30px;
+	font-size: 20px;
+
+ }
+
+.CONT{
+
+ 	margin-top: 40px;
+	display: flex;
+	flex-wrap: wrap;
+	flex: 50%;
+	flex-direction: column;
+	margin-right: 80px;
+	margin-left: 80px;
+	color: white;
+
+ }
+
+
+ .CONT3{
+
+ 	margin-top: 40px;
+	display: flex;
+	flex-wrap: wrap;
+	flex: 50%;
+	flex-direction: column;
+	margin-right: 80px;
+	margin-left: 80px;
+
+ }
+
+ .LOGO{
+ 	display: flex;
+	flex-wrap: wrap;
+	flex: 50%;
+	justify-content: center;
+	align-items: center;
+	margin-top: 40px;
+ 	
+ }
+
+ .BODY{
+ 	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-around;
+	flex-direction: row;
+	color: black;
+ }
+
+.CONT4{
+	background-color: #b4ea0a;
+	margin: 50px;
+	width: 350px;
+	height: 860px;
+	color: black;
+	padding: 10px;
+}
+
+.SOBRE{
+	text-align: center;
+}
+
+.SOB{
+margin: 25px;
+text-align: center;
+
+}
+
+.TEXT2{
+	display: flex;
+	margin-bottom: 10px;
+	text-align: left;
+	 padding: 10px;
+	 
+}
+
+.TEXT3 {
+    text-align: left; 
+     padding: 10px;
+}
+
+.TEXT4 {
+    text-align: left; 
+     padding: 10px;
+}
+
+.CONT5{
+	background-color: #b4ea0a;
+	margin: 50px;
+	width: 350px;
+	height: 860px;
+	color: black;
+	padding: 5px;
+}
+
+
+.MIS{
+	text-align: center;
+}
+.MISI{
+	margin: 25px;
+	text-align: center;
+
+}
+
+.CONT6{
+	background-color: #b4ea0a;
+	justify-content: flex-start;
+	margin: 50px;
+	width: 350px;
+	height: 860px;
+	color: black;
+	padding: 5px;
+
+}
+
+.VIS{
+     text-align: center;
+}
+
+.VISI{
+      margin: 25px;
+      text-align: center;
+}
+
+header nav ul li {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px;
+    border-right: 1px solid black;
+    padding-right: 20px;
+}
+
+header nav ul li:last-child {
+    border-right: none;
+}
+
+nav a {
+  text-decoration: none; 
+  color: black;
+  font-weight: 400; 
+}
+
+
+
+footer {
+    background-color: #b4ea0a;
+    color: black;
+    padding: 20px 15px; 
+    margin-top: 200px;
+    width: 100%;
+    font-size: 15px;
+}
+
+footer .breadcrumb {
+    background-color: transparent;
+    margin-bottom: 0; 
+    padding: 0.5rem 0;
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    max-width: 960px; 
+    margin: 0 auto; 
+    padding: 0 20px;
+
+}
+.left {
+    text-align: left;
+}
+
+.center {
+    text-align: center;
+}
+
+.logo {
+    max-height: 80px; 
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.right {
+    text-align: right;
+}
+
+.icon {
+    width: 50px; 
+    height: 50px;
+    margin: 0 5px; 
+}
+
+
+
+a{
+	color: black;
+}
+
+
+
+
+ @charset "ustf-8";
+a{
+	text-decoration: none;
+}
+
+@media (max-width: 900px) 
+{
+
+	header nav ul li{
+		border-right: none;
+	}
+}
+
+
+
+
